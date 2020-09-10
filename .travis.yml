@@ -4,6 +4,8 @@ node_js:
 script:
 - npm run lint
 - npm run build
+before_deploy:
+- mv .gitignore copy.gitignore
 deploy:
   provider: pages
   skip_cleanup: true
@@ -11,3 +13,5 @@ deploy:
   keep_history: true
   on:
     branch: master
+after_deploy:
+- mv copy.gitignore .gitignore
