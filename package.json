@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/LordKa0S/typescript-webpack-starter#readme",
   "devDependencies": {
-    "@types/lodash": "^4.14.168",
+    "@types/lodash": "^4.14.172",
     "@types/webpack-env": "^1.16.2",
     "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.29.0",
@@ -32,7 +32,7 @@
     "html-webpack-plugin": "^4.5.2",
     "mini-css-extract-plugin": "^1.6.2",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
-    "sass": "^1.37.0",
+    "sass": "^1.38.2",
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
     "terser-webpack-plugin": "^4.2.3",
