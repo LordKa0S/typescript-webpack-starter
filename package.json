@@ -22,7 +22,7 @@
   "homepage": "https://github.com/LordKa0S/typescript-webpack-starter#readme",
   "devDependencies": {
     "@types/lodash": "^4.14.172",
-    "@types/webpack-env": "^1.16.2",
+    "@types/webpack-env": "^1.17.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "clean-webpack-plugin": "^4.0.0",
