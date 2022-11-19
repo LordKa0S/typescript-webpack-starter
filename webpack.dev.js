@@ -29,7 +29,7 @@ module.exports = merge(common, {
     ],
     devtool: 'inline-source-map',
     devServer: {
-        contentBase: './dist',
+        static: './dist',
         hot: true,
     },
 });
