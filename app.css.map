@@ -1,0 +1,1 @@
+{"version":3,"file":"app.css","mappings":"AACA,OACI,SAFI","sources":["webpack://typescript-webpack-starter/./src/scss/style.scss"],"sourcesContent":["$color: red;\n.hello {\n    color: $color;\n}\n"],"names":[],"sourceRoot":""}
