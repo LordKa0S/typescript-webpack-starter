@@ -21,11 +21,7 @@ module.exports = merge(common, {
         ],
     },
     plugins: [
-        new ForkTsCheckerWebpackPlugin({
-            eslint: {
-                files: './src/ts' // required - same as command `eslint ./src/ts --ext .ts,.tsx,.js,.jsx`
-            },
-        }),
+        new ForkTsCheckerWebpackPlugin(),
     ],
     devtool: 'inline-source-map',
     devServer: {
